@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+* {
+    color: grey;
+    font-family: 'Lato', sans-serif;
+}
+.container-fluid{
+    background-color: #f6f6f6;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23efc554' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#logo {
+    height: 10%;
+}
+.header {
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.header img{
+    height: 100px;
+    float: left;
+}
+
+hr{
+    width: 100%;
+    border: 2px solid grey;
+}
+.mainImg {
+    width: 100%;
+}
+
+.squares >*{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 0 0 15px auto;
+    word-wrap: break-word;
+}
+.squares p{
+    color: black;
+}
+.squares >div:nth-child(1) {
+    background-color: yellow;
+}
+
+.squares > div:nth-child(2) {
+    background-color: gainsboro;
+}
+
+.squares > div:nth-child(3) {
+    background-color: grey;
+}
+
+.imagenesFT {
+    /* min-height: 100px;
+    max-height: 400px;*/
+    height: 100px;
+    width: auto;
+    text-align: center;
+}
+
+.imagenesFT a {
+    color: gray;
+    text-decoration:none;
+    font-size: small;
+}

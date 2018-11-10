@@ -1,0 +1,52 @@
+.container-fluid{
+ background-color: #dbdfe5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%237184b2' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");height: -webkit-fill-available;
+}
+#btnLogin{
+    background-color: #414656;
+    color: #ffffff;
+    padding: 1%;
+}
+h3{
+    margin:auto;
+    padding:5%;
+    background-color: #7184b2;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    box-shadow: -3px 1px 0 6px #cccaca;
+}
+h2{
+        margin-top: 10%;
+        margin-bottom:5%;
+        color:#414656;
+}
+.panel{
+    background-color: #ffffff96;
+    border: none;
+    box-shadow: 3px 9px 10px #42404057;
+    
+}
+#btnLogin , .panel , form-control, .input-group-addon, .checkbox{
+    border-radius:0;
+}
+form{
+    margin-top: 5%;
+}
+
+body {
+    color:#414656;
+}
+.social{
+    color:#7184b2;
+    font-size:20px;
+}
+#panel-text{
+    font-size:15px;
+}
+.input-group i{
+     color:#7184b2;
+}
+.author{
+   margin-top:20%
+}

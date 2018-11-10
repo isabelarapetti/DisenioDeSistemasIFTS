@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+  <link href="css/styleSheet.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid">
+  <h2 class="text-center" >Sign In</h2>
+    <div class="panel panel-default col-sm-8 col-sm-offset-2">
+      <div class="panel-body">
+        <h3 class="text-center" style="color:#004d7a"></h3>
+        <form>
+          <div class="row">
+            <div class="form-group col-xs-12 col-sm-6">
+              <label for="Email">Email</label>
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"><i class="fas fa-user"></i></span>
+                <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="form-group col-xs-12 col-sm-6">
+              <label for="Password">Password</label>
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"><i class="fas fa-lock"></i></span>
+                <input type="password" class="form-control" id="InputPassword" placeholder="xxxxxxx">
+              </div>
+            </div>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">Remember me
+            </label>
+          </div>
+          <button class="btn col-xs-12 " type="button" id="btnLogin"
+           class="btn btn-primary" autocomplete="off">
+            Login
+          </button>
+        </form>
+      </div>
+      <br><br>
+      <div class="row panel-footer">
+        <span class="text-left social"><i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-github"></i><span>
+        <span id="panel-text"class="pull-right"><a style="color:#004d7a" href="#">Forgot ur password?</a><span>
+      </div>
+    </div>
+    <div class="col-xs-12 text-center author">Isabela Rapetti</div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('#btnLogin').click(function (){
+        $(this).text('Hello World');
+        setTimeout(function(){ 
+          $(this).text('99999');
+         }, 500);
+    })
+  </script>
+</body>
+
+</html>
